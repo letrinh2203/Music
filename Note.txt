@@ -1,0 +1,10 @@
+tao project: npx react-native init Music
+chay: open emulator
+cd Music: npx react-native run-android
+
+tao icon: 
+install: npm install react-native-vector-icons
+link thu vien: npx react-native link
+
+tao media player: npm install --save react-native-track-player
+past 2 doan lenh vao file index.js va service.js trong link https://react-native-track-player.js.org/docs/basics/getting-started
