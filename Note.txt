@@ -8,3 +8,23 @@ link thu vien: npx react-native link
 
 tao media player: npm install --save react-native-track-player
 past 2 doan lenh vao file index.js va service.js trong link https://react-native-track-player.js.org/docs/basics/getting-started
+sua loi k mo duoc cua track-player: vao android/build.gradle: them doan code
+jcenter(){
+            content{
+                includeGroup("com.google.android.exoplayer")
+            }
+        }
+//mave{}
+-------
+bi loi o: yarn add react-native-track-player@next
+-->21'45'' them 
+  // useEffect(() => {
+  //   if (isPlayerReady.current) {
+  //     TrackPlayer.skip(songs[songIndex].id);
+  //   }
+  // }, [songIndex]);
+
+----
+cai: npm install @react-native-community/slider --save
+
+
